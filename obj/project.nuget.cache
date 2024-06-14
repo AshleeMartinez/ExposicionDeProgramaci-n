@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "l3/F95P56CXj+PQ/BhEmo0B4crIukNv31lt8JGSRr0blUHdz+zJl2L1SJOD7Ts+CBeF43UrJ+2RwsFLtynUxdw==",
+  "dgSpecHash": "JoNpc9Ew/B+XrVXtcag91YlJxHMsuUCKLXW0QDcoVkULcIsd7lo3Jk5dyjMdLHoBf7M3mkiJuAkb/IrSG+0YXA==",
   "success": true,
   "projectFilePath": "C:\\Users\\usuario\\OneDrive\\Escritorio\\Practica de Formularios\\WPFValidacion\\WPFValidacion\\WPFValidacion.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\usuario\\.nuget\\packages\\extended.wpf.toolkit\\4.6.0\\extended.wpf.toolkit.4.6.0.nupkg.sha512"
+  ],
   "logs": []
 }

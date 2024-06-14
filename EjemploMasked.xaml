@@ -4,9 +4,17 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFValidacion"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         mc:Ignorable="d"
         Title="EjemploMasked" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="FECHA: " HorizontalAlignment="Left" Margin="201,252,0,0" VerticalAlignment="Top" Width="105"/>
+        <Label Content="Numero de telefono: " HorizontalAlignment="Left" Margin="131,206,0,0" VerticalAlignment="Top"/>
+        <Label Content="IP:" HorizontalAlignment="Left" Margin="222,301,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.023,-0.704"/>
+        <Label Content="Ejemplos del Uso de MaskedTextBox" HorizontalAlignment="Center" Margin="0,151,0,0" VerticalAlignment="Top"/>
+        <xctk:MaskedTextBox Name="DateMaskedTextBox" Mask="00/00/0000" Width="300" Height="30" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,250,0,0"/>
+        <xctk:MaskedTextBox Name="PhoneMaskedTextBox" Mask="(000) 000-0000" Width="300" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <xctk:MaskedTextBox Name="IpMaskedTextBox" Mask="990.990.990.990" Width="300" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,190,0,0"/>
     </Grid>
+
 </Window>

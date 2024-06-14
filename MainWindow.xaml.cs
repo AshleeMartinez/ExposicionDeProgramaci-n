@@ -1,8 +1,9 @@
 ﻿using System.Text;
+using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
-using System.Windows.Documents;
+
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -24,13 +25,22 @@ namespace WPFValidacion
             this.DataContext = Persona;
         }
 
-        private void ValidateButton_Click(object sender, RoutedEventArgs e)
+        private static readonly Regex regex = new Regex("[^0-9. -]+");
+        private static bool OnlyNumberText(string Text)
         {
-            // Forzar la validación
-            BindingExpression binding = nombreTextBox.GetBindingExpression(TextBox.TextProperty);
+            return !regex.IsMatch(Text);
+        }
+        private void TextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+         e.Handled= !OnlyNumberText(e.Text);   
+        }
+
+        private void ValidateButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            BindingExpression binding = nombreTXT.GetBindingExpression(TextBox.TextProperty);
             binding.UpdateSource();
 
-            if (Validation.GetHasError(nombreTextBox))
+            if (Validation.GetHasError(nombreTXT))
             {
                 MessageBox.Show("Existen errores de validación.");
             }
@@ -39,5 +49,18 @@ namespace WPFValidacion
                 MessageBox.Show("Validación exitosa.");
             }
         }
+
+        private static readonly Regex regex1 = new Regex("[^a-zA-Z]+");
+        private static bool OnlyText(string Text)
+        {
+            return !regex1.IsMatch(Text);
+        }
+        private void nombreTXT_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            e.Handled = !OnlyText(e.Text);
+        }
+
+
+
     }
 }

@@ -8,17 +8,11 @@
         Title="Validación de Campos" Height="400" Width="800">
     <Grid>
         <Label Content="Información de Usuario" HorizontalAlignment="Left" Margin="259,51,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calisto MT"/>
-        <StackPanel Margin="10">
-            <TextBox Name="nombreTextBox" Margin="5" Width="200" VerticalAlignment="Center">
-                <TextBox.Text>
-                    <Binding Path="Nombre" UpdateSourceTrigger="PropertyChanged">
-                        <Binding.ValidationRules>
-                            <local:NombreValidationRule/>
-                        </Binding.ValidationRules>
-                    </Binding>
-                </TextBox.Text>
-            </TextBox>
-            <Button Content="Validar" Click="ValidateButton_Click" Margin="5" Width="200"/>
-        </StackPanel>
+        <TextBox x:Name="nombreTXT" HorizontalAlignment="Left" Margin="259,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223" PreviewTextInput="nombreTXT_PreviewTextInput"/>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="188,166,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ValidateButton" Content="Validar" HorizontalAlignment="Left" Margin="329,284,0,0" VerticalAlignment="Top" Width="98" Click="ValidateButton_Click_1"/>
+        <Label Content="Edad:" HorizontalAlignment="Left" Margin="206,209,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="259,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223" PreviewTextInput="TextBox_PreviewTextInput" MaxLength="3"/>
+
     </Grid>
 </Window>
