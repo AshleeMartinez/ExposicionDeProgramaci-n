@@ -15,6 +15,7 @@
         <xctk:MaskedTextBox Name="DateMaskedTextBox" Mask="00/00/0000" Width="300" Height="30" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,250,0,0"/>
         <xctk:MaskedTextBox Name="PhoneMaskedTextBox" Mask="(000) 000-0000" Width="300" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center"/>
         <xctk:MaskedTextBox Name="IpMaskedTextBox" Mask="990.990.990.990" Width="300" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,190,0,0"/>
+        <Button Content="Cerrar" HorizontalAlignment="Left" Margin="317,377,0,0" VerticalAlignment="Top" Width="184" Click="Button_Click"/>
     </Grid>
 
 </Window>

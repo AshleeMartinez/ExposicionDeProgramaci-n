@@ -1,24 +1,21 @@
-﻿using System.Text;
+﻿
 using System.Text.RegularExpressions;
+
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
-namespace WPFValidacion
+namespace WPFValidacion.validate
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for CamposValidadosxaml.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CamposValidadosxaml : Window
     {
         public Persona Persona { get; set; }
-        public MainWindow()
+        public CamposValidadosxaml()
         {
             InitializeComponent();
             Persona = new Persona();
@@ -30,9 +27,10 @@ namespace WPFValidacion
         {
             return !regex.IsMatch(Text);
         }
+
         private void TextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
         {
-         e.Handled= !OnlyNumberText(e.Text);   
+            e.Handled = !OnlyNumberText(e.Text);
         }
 
         private void ValidateButton_Click_1(object sender, RoutedEventArgs e)
@@ -51,6 +49,8 @@ namespace WPFValidacion
         }
 
         private static readonly Regex regex1 = new Regex("[^a-zA-Z]+");
+        //Secuencia de caracteres que define un patrón de búsqueda
+
         private static bool OnlyText(string Text)
         {
             return !regex1.IsMatch(Text);
@@ -59,7 +59,6 @@ namespace WPFValidacion
         {
             e.Handled = !OnlyText(e.Text);
         }
-
 
 
     }

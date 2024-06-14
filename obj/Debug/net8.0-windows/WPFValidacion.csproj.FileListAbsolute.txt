@@ -21,3 +21,14 @@ C:\Users\usuario\OneDrive\Escritorio\Practica de Formularios\WPFValidacion\WPFVa
 C:\Users\usuario\OneDrive\Escritorio\Practica de Formularios\WPFValidacion\WPFValidacion\obj\Debug\net8.0-windows\WPFValidacion.pdb
 C:\Users\usuario\OneDrive\Escritorio\Practica de Formularios\WPFValidacion\WPFValidacion\obj\Debug\net8.0-windows\WPFValidacion.genruntimeconfig.cache
 C:\Users\usuario\OneDrive\Escritorio\Practica de Formularios\WPFValidacion\WPFValidacion\obj\Debug\net8.0-windows\ref\WPFValidacion.dll
+C:\Users\usuario\OneDrive\Escritorio\Practica de Formularios\WPFValidacion\WPFValidacion\obj\Debug\net8.0-windows\WPFValidacion.csproj.AssemblyReference.cache
+C:\Users\usuario\OneDrive\Escritorio\Practica de Formularios\WPFValidacion\WPFValidacion\obj\Debug\net8.0-windows\Wpf\CuadroDialogo\App.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Practica de Formularios\WPFValidacion\WPFValidacion\obj\Debug\net8.0-windows\Wpf\CuadroDialogo\MainWindow.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Practica de Formularios\WPFValidacion\WPFValidacion\obj\Debug\net8.0-windows\Wpf\CuadroDialogo\miDialogo.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Practica de Formularios\WPFValidacion\WPFValidacion\obj\Debug\net8.0-windows\Wpf\Ejemplo3\App.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Practica de Formularios\WPFValidacion\WPFValidacion\obj\Debug\net8.0-windows\Wpf\Ejemplo3\MainWindow.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Practica de Formularios\WPFValidacion\WPFValidacion\obj\Debug\net8.0-windows\Wpf\GroupBox\App.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Practica de Formularios\WPFValidacion\WPFValidacion\obj\Debug\net8.0-windows\Wpf\GroupBox\MainWindow.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Practica de Formularios\WPFValidacion\WPFValidacion\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Practica de Formularios\WPFValidacion\WPFValidacion\obj\Debug\net8.0-windows\ValidacionCAMPOS.g.cs
+C:\Users\usuario\OneDrive\Escritorio\Practica de Formularios\WPFValidacion\WPFValidacion\obj\Debug\net8.0-windows\validate\CamposValidadosxaml.g.cs
