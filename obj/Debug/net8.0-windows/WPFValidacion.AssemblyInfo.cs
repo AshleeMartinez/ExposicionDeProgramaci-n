@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPFValidacion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+965ae3b0f110da5416e32e1b73254e91a31b3bfe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db7eb1df83817f32c6a0efaddcab0917cfe056bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPFValidacion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPFValidacion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
